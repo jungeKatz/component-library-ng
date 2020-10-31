@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { OmriButtonComponent } from './omri-button/omri-button.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OmriButtonComponent
   ],
   imports: [
     BrowserModule,
